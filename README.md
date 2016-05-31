@@ -7,3 +7,5 @@ Light version of Facebook. Light not only in weight but also in the use. (Univer
 Michele Branchesi [<m.branchesi@outlook.com>]
 
 Leonardo Rignanese
+
+FB: https://www.facebook.com/SlimSocialProject/
