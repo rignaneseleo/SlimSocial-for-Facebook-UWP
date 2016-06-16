@@ -18,6 +18,8 @@ namespace SlimSocial_for_Facebook
             PackageVersion number = Package.Current.Id.Version; // Get app version
             version.Text += string.Format(" {0}.{1}.{2}\r\n", number.Major, number.Minor, number.Build);
 
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible; //Adds the back button to the title bar
+
             SystemNavigationManager.GetForCurrentView().BackRequested += (s, a) => // add the back event
             {
                 if (Frame.CanGoBack)

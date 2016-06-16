@@ -18,6 +18,7 @@ namespace SlimSocial_for_Facebook
         ApplicationDataContainer localSettings = ApplicationData.Current.LocalSettings;
         ApplicationView view = ApplicationView.GetForCurrentView();
 
+
         public MainPage()
         {
             InitializeComponent();
@@ -34,6 +35,8 @@ namespace SlimSocial_for_Facebook
             else
                 GoHome(); // Loads the main page
 
+            // Hides the back button in title bar
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Collapsed; 
 
             // Handle the back button request (go to the previous page)
             SystemNavigationManager.GetForCurrentView().BackRequested += (s, a) =>
