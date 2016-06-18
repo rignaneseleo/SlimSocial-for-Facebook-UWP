@@ -124,7 +124,7 @@
     <value>Back</value>
   </data>
   <data name="blockTopBar.Header" xml:space="preserve">
-    <value>Locks the bar Facebook</value>
+    <value>Locks the Facebook bar</value>
   </data>
   <data name="browserButton.Label" xml:space="preserve">
     <value>Open with browser</value>
