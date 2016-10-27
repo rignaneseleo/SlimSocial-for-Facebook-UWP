@@ -22,6 +22,7 @@ namespace SlimSocial_for_Facebook
         {
             InitializeComponent();
 
+            if (localSettings.Values.ContainsKey("fullScreen") && (bool)localSettings.Values["fullScreen"])
             view.TryEnterFullScreenMode(); // Full screen mode activate
 
             if (localSettings.Values.ContainsKey("urlShared"))

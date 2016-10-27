@@ -138,6 +138,9 @@
   <data name="developers.Text" xml:space="preserve">
     <value>Desarrolladores</value>
   </data>
+  <data name="fullScreen.Header" xml:space="preserve">
+    <value>Pantalla Completa</value>
+  </data>
   <data name="homeButton.Label" xml:space="preserve">
     <value>Home</value>
   </data>

@@ -40,6 +40,8 @@ namespace SlimSocial_for_Facebook
                 addSpaceBetweenPosts.IsOn = (bool)localSettings.Values["addSpaceBetweenPosts"];
             if (localSettings.Values.ContainsKey("darkTheme"))
                 darkTheme.IsOn = (bool)localSettings.Values["darkTheme"];
+            if (localSettings.Values.ContainsKey("fullScreen"))
+                fullScreen.IsOn = (bool)localSettings.Values["fullScreen"];
         }
 
         private void SaveStatus_Toggled(object sender, Windows.UI.Xaml.RoutedEventArgs e)
