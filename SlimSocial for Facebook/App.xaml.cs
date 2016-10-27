@@ -3,6 +3,7 @@ using Windows.ApplicationModel;
 using Windows.ApplicationModel.Activation;
 using Windows.ApplicationModel.DataTransfer;
 using Windows.Storage;
+using Windows.UI.Core;
 using Windows.UI.Xaml;
 using Windows.UI.Xaml.Controls;
 using Windows.UI.Xaml.Navigation;
@@ -59,6 +60,8 @@ namespace SlimSocial_for_Facebook
             }
 #endif
             Frame rootFrame = Window.Current.Content as Frame;
+
+            SystemNavigationManager.GetForCurrentView().AppViewBackButtonVisibility = AppViewBackButtonVisibility.Visible;
 
             // Non ripetere l'inizializzazione dell'applicazione se la finestra già dispone di contenuto,
             // assicurarsi solo che la finestra sia attiva

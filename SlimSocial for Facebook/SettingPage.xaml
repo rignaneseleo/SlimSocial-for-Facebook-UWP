@@ -52,6 +52,15 @@
                         </ToggleSwitch.HeaderTemplate>
                     </ToggleSwitch>
                 </StackPanel>
+                <StackPanel>
+                    <ToggleSwitch x:Uid="fullScreen" Name="fullScreen" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Toggled="SaveStatus_Toggled">
+                        <ToggleSwitch.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding}"/>
+                            </DataTemplate>
+                        </ToggleSwitch.HeaderTemplate>
+                    </ToggleSwitch>
+                </StackPanel>
             </StackPanel>
         </PivotItem>
 
