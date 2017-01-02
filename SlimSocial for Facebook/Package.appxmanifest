@@ -1,6 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Package xmlns="http://schemas.microsoft.com/appx/manifest/foundation/windows10" xmlns:mp="http://schemas.microsoft.com/appx/2014/phone/manifest" xmlns:uap="http://schemas.microsoft.com/appx/manifest/uap/windows10" IgnorableNamespaces="uap mp">
-  <Identity Name="58078MicheleBranchesi.SlimSocialforFacebookbeta" Publisher="CN=B5F76F83-1F8A-42AF-9AF7-C114DB86618F" Version="1.2.2.0" />
+  <Identity Name="58078MicheleBranchesi.SlimSocialforFacebookbeta" Publisher="CN=B5F76F83-1F8A-42AF-9AF7-C114DB86618F" Version="1.5.2.0" />
   <mp:PhoneIdentity PhoneProductId="27211d47-bbd3-411f-81d3-897a7db800c6" PhonePublisherId="00000000-0000-0000-0000-000000000000" />
   <Properties>
     <DisplayName>SlimSocial for Facebook</DisplayName>
@@ -30,9 +30,14 @@
           </uap:ShareTarget>
         </uap:Extension>
       </Extensions>
+      <uap:ApplicationContentUriRules>
+        <uap:Rule Match="https://touch.facebook.com" Type="include" WindowsRuntimeAccess="none" />
+        <uap:Rule Match="https://m.facebook.com" Type="include" WindowsRuntimeAccess="none" />
+      </uap:ApplicationContentUriRules>
     </Application>
   </Applications>
   <Capabilities>
     <Capability Name="internetClient" />
+    <uap:Capability Name="picturesLibrary" />
   </Capabilities>
 </Package>

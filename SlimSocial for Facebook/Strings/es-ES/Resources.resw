@@ -118,7 +118,7 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <data name="addSpaceBetweenPosts.Header" xml:space="preserve">
-    <value>Aggiungi lo spazio tra i post</value>
+    <value>Añadir el espacio entre el post</value>
   </data>
   <data name="backButton.Label" xml:space="preserve">
     <value>Atrás</value>
@@ -132,11 +132,32 @@
   <data name="centerTextPosts.Header" xml:space="preserve">
     <value>Centra el texto de las noticias</value>
   </data>
+  <data name="clearCacheButton.Label" xml:space="preserve">
+    <value>Limpiar cache</value>
+  </data>
   <data name="darkTheme.Header" xml:space="preserve">
     <value>Tema oscuro</value>
   </data>
   <data name="developers.Text" xml:space="preserve">
     <value>Desarrolladores</value>
+  </data>
+  <data name="donatesButton.Content" xml:space="preserve">
+    <value>Dona</value>
+  </data>
+  <data name="donatesDescription.Text" xml:space="preserve">
+    <value>Decidí desarrollar esta aplicación gratuita, merezco un café?</value>
+  </data>
+  <data name="donatesTitle.Text" xml:space="preserve">
+    <value>Dona</value>
+  </data>
+  <data name="exitDialog" xml:space="preserve">
+    <value>¿Seguro que quieres salir?</value>
+  </data>
+  <data name="exitTitleDialog" xml:space="preserve">
+    <value>Precaución!</value>
+  </data>
+  <data name="hideAdsAndPeopleYouMayKnow.Header" xml:space="preserve">
+    <value>Ocultar post patrocinado</value>
   </data>
   <data name="homeButton.Label" xml:space="preserve">
     <value>Home</value>
@@ -153,11 +174,11 @@
   <data name="nameApp.Text" xml:space="preserve">
     <value>SlimSocial for Facebook</value>
   </data>
-  <data name="nameLogoCreator.Text" xml:space="preserve">
-    <value>Pharetra</value>
-  </data>
   <data name="noConnection" xml:space="preserve">
     <value>"¡Ops, hubo un problema de connectiòn! Compruebe su conexión de red e inténtelo de nuevo.</value>
+  </data>
+  <data name="okCommand" xml:space="preserve">
+    <value>Bueno</value>
   </data>
   <data name="pivotAbout.Header" xml:space="preserve">
     <value>Informaciones</value>
@@ -177,10 +198,19 @@
   <data name="refreshButton.Label" xml:space="preserve">
     <value>Actualizar</value>
   </data>
+  <data name="saveButton.Label" xml:space="preserve">
+    <value>Guardar la imagen/vídeo</value>
+  </data>
+  <data name="saveDialog" xml:space="preserve">
+    <value>Imagen / vídeo guardado en 'imagen guardada'</value>
+  </data>
+  <data name="saveTitleDialog" xml:space="preserve">
+    <value>Rescate</value>
+  </data>
   <data name="settingsButton.Label" xml:space="preserve">
     <value>Ajustes</value>
   </data>
-  <data name="shareAppButton.Label" xml:space="preserve">
+  <data name="shareAppButton.Content" xml:space="preserve">
     <value>Compartir la aplicación</value>
   </data>
   <data name="shareMessage" xml:space="preserve">

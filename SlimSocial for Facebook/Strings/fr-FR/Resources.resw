@@ -132,11 +132,32 @@
   <data name="centerTextPosts.Header" xml:space="preserve">
     <value>Centrer le texte des publications</value>
   </data>
+  <data name="clearCacheButton.Label" xml:space="preserve">
+    <value>Vider le cache</value>
+  </data>
   <data name="darkTheme.Header" xml:space="preserve">
     <value>Thème sombre</value>
   </data>
   <data name="developers.Text" xml:space="preserve">
     <value>Développeurs</value>
+  </data>
+  <data name="donatesButton.Content" xml:space="preserve">
+    <value>Fait un don</value>
+  </data>
+  <data name="donatesDescription.Text" xml:space="preserve">
+    <value>Je décidé de développer cette application gratuite, je mérite un café?</value>
+  </data>
+  <data name="donatesTitle.Text" xml:space="preserve">
+    <value>Fait un don</value>
+  </data>
+  <data name="exitDialog" xml:space="preserve">
+    <value>Etes-vous sûr de vouloir quitter?</value>
+  </data>
+  <data name="exitTitleDialog" xml:space="preserve">
+    <value>Prudence!</value>
+  </data>
+  <data name="hideAdsAndPeopleYouMayKnow.Header" xml:space="preserve">
+    <value>Cacher poste parrainé</value>
   </data>
   <data name="homeButton.Label" xml:space="preserve">
     <value>Home</value>
@@ -153,11 +174,11 @@
   <data name="nameApp.Text" xml:space="preserve">
     <value>SlimSocial for Facebook</value>
   </data>
-  <data name="nameLogoCreator.Text" xml:space="preserve">
-    <value>Pharetra</value>
-  </data>
   <data name="noConnection" xml:space="preserve">
     <value>Oops, il y a un problème de connexion. Vérifiez si vous avez activé le réseau WiFi ou de données et essayez à nouveau.</value>
+  </data>
+  <data name="okCommand" xml:space="preserve">
+    <value>Bien</value>
   </data>
   <data name="pivotAbout.Header" xml:space="preserve">
     <value>Informations</value>
@@ -177,10 +198,19 @@
   <data name="refreshButton.Label" xml:space="preserve">
     <value>Actualiser</value>
   </data>
+  <data name="saveButton.Label" xml:space="preserve">
+    <value>Enregistrer l'image/vidéo</value>
+  </data>
+  <data name="saveDialog" xml:space="preserve">
+    <value>Image / vidéo enregistrée dans "Saved Picture"</value>
+  </data>
+  <data name="saveTitleDialog" xml:space="preserve">
+    <value>Sauvetage</value>
+  </data>
   <data name="settingsButton.Label" xml:space="preserve">
     <value>Paramètres</value>
   </data>
-  <data name="shareAppButton.Label" xml:space="preserve">
+  <data name="shareAppButton.Content" xml:space="preserve">
     <value>Partager cette application</value>
   </data>
   <data name="shareMessage" xml:space="preserve">

@@ -4,7 +4,6 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <Pivot x:Uid="pivotSettings">
-        
         <PivotItem x:Uid="pivotFacebookSettings">
             <StackPanel>
                 <StackPanel>
@@ -18,6 +17,15 @@
                 </StackPanel>
                 <StackPanel>
                     <ToggleSwitch x:Uid="showRecentNews" Name="showRecentNews" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Toggled="SaveStatus_Toggled">
+                        <ToggleSwitch.HeaderTemplate>
+                            <DataTemplate>
+                                <TextBlock TextWrapping="Wrap" Text="{Binding}"/>
+                            </DataTemplate>
+                        </ToggleSwitch.HeaderTemplate>
+                    </ToggleSwitch>
+                </StackPanel>
+                <StackPanel>
+                    <ToggleSwitch x:Uid="hideAdsAndPeopleYouMayKnow" Name="hideAdsAndPeopleYouMayKnow" HorizontalAlignment="Stretch" VerticalAlignment="Stretch" Toggled="SaveStatus_Toggled">
                         <ToggleSwitch.HeaderTemplate>
                             <DataTemplate>
                                 <TextBlock TextWrapping="Wrap" Text="{Binding}"/>
@@ -65,7 +73,10 @@
                     <TextBlock x:Uid="michiBra"/>
                 </HyperlinkButton>
                 <TextBlock x:Uid="logoCreator" FontSize="25"/>
-                <TextBlock x:Uid="nameLogoCreator"/>
+                <TextBlock x:Uid="creatorName" Name="creatorName"/>
+                <TextBlock x:Uid="donatesTitle" FontSize="25"/>
+                <TextBlock x:Uid="donatesDescription" TextWrapping="Wrap"/>
+                <Button x:Uid="donatesButton" Name="donatesButton" HorizontalAlignment="Left" VerticalAlignment="Stretch" Click="DonatesButton_Click"/>
             </StackPanel>
         </PivotItem>
 
@@ -74,7 +85,14 @@
                 <TextBlock x:Uid="nameApp" FontSize="20" TextWrapping="Wrap"/>
                 <TextBlock x:Uid="version" Name="version"/>
                 <TextBlock x:Uid="privacy" TextWrapping="Wrap"/>
+                <Button x:Uid="shareAppButton" Name="shareAppButton" Click="ShareAppButton_Click"/>
             </StackPanel>
         </PivotItem>
     </Pivot>
+
+    <Page.BottomAppBar>
+        <CommandBar x:Name="commandBar" VerticalAlignment="Stretch" Background="#FF3B5999">
+            <AppBarButton x:Uid="backButton" Name="backButton" Icon="Back" Click="BackButton_Click"/>
+        </CommandBar>
+    </Page.BottomAppBar>
 </Page>

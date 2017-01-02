@@ -132,11 +132,32 @@
   <data name="centerTextPosts.Header" xml:space="preserve">
     <value>Centers the text of the posts</value>
   </data>
+  <data name="clearCacheButton.Label" xml:space="preserve">
+    <value>Clear cache</value>
+  </data>
   <data name="darkTheme.Header" xml:space="preserve">
     <value>Dark theme</value>
   </data>
   <data name="developers.Text" xml:space="preserve">
     <value>Developers</value>
+  </data>
+  <data name="donatesButton.Content" xml:space="preserve">
+    <value>Donates</value>
+  </data>
+  <data name="donatesDescription.Text" xml:space="preserve">
+    <value>I decided to develop this free app, I deserve a coffee?</value>
+  </data>
+  <data name="donatesTitle.Text" xml:space="preserve">
+    <value>Donates</value>
+  </data>
+  <data name="exitDialog" xml:space="preserve">
+    <value>Are you sure you want to quit?</value>
+  </data>
+  <data name="exitTitleDialog" xml:space="preserve">
+    <value>Attention!</value>
+  </data>
+  <data name="hideAdsAndPeopleYouMayKnow.Header" xml:space="preserve">
+    <value>Hide sponsored post</value>
   </data>
   <data name="homeButton.Label" xml:space="preserve">
     <value>Home</value>
@@ -159,6 +180,9 @@
   <data name="noConnection" xml:space="preserve">
     <value>Oops, there is a connection problem. Check if you have activated the WiFi or data network and try again.</value>
   </data>
+  <data name="okCommand" xml:space="preserve">
+    <value>Ok</value>
+  </data>
   <data name="pivotAbout.Header" xml:space="preserve">
     <value>About</value>
   </data>
@@ -177,10 +201,19 @@
   <data name="refreshButton.Label" xml:space="preserve">
     <value>Refresh</value>
   </data>
+  <data name="saveButton.Label" xml:space="preserve">
+    <value>Save picture/video</value>
+  </data>
+  <data name="saveDialog" xml:space="preserve">
+    <value>Picture/video saved in "Saved Picture"</value>
+  </data>
+  <data name="saveTitleDialog" xml:space="preserve">
+    <value>Saving</value>
+  </data>
   <data name="settingsButton.Label" xml:space="preserve">
     <value>Settings</value>
   </data>
-  <data name="shareAppButton.Label" xml:space="preserve">
+  <data name="shareAppButton.Content" xml:space="preserve">
     <value>Share this app</value>
   </data>
   <data name="shareMessage" xml:space="preserve">

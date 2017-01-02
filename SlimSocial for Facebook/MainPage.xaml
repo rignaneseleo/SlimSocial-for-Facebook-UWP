@@ -4,7 +4,7 @@
     xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
 
     <WebView x:Name="facebookWebView" NewWindowRequested="FacebookWebView_NewWindowRequested" LoadCompleted="FacebookWebView_LoadCompleted" NavigationFailed="FacebookWebView_NavigationFailed"/>
-    
+
     <Page.Resources>
         <Storyboard x:Name="iconRotation" AutoReverse="False" RepeatBehavior="Forever">
             <DoubleAnimation Duration="0:0:1" To="360" Storyboard.TargetProperty="(UIElement.RenderTransform).(CompositeTransform.Rotation)" Storyboard.TargetName="refreshIcon" />
@@ -12,7 +12,8 @@
     </Page.Resources>
 
     <Page.BottomAppBar>
-        <CommandBar VerticalAlignment="Stretch">
+        <CommandBar x:Name="commandBar" VerticalAlignment="Stretch" Background="#FF3B5999">
+            <AppBarButton x:Uid="backButton" Name="backButton" Icon="Back" Click="BackButton_Click"/>
             <AppBarButton x:Uid="refreshButton" Name="refreshButton" RenderTransformOrigin="0.5,0.5" Click="RefreshButton_Click">
                 <AppBarButton.Icon>
                     <SymbolIcon x:Name="refreshIcon"  Symbol="Refresh" RenderTransformOrigin="0.5,0.5" >
@@ -24,10 +25,10 @@
             </AppBarButton>
             <AppBarButton x:Uid="homeButton" Name="homeButton" Icon="Home" Click="HomeButton_Click"/>
             <AppBarButton x:Uid="topButton" Name="topButton" Icon="Upload" Click="TopButton_Click"/>
-            <AppBarButton x:Uid="backButton" Name="backButton" Icon="Back" Click="BackButton_Click"/>
             <CommandBar.SecondaryCommands>
-                <AppBarButton x:Uid="shareAppButton" Name="shareAppButton" Click="ShareAppButton_Click"/>
+                <AppBarButton x:Uid="saveButton" Name="saveButton" Click="SaveButton_Click"/>
                 <AppBarButton x:Uid="browserButton" Name="browserButton" Click="BrowserButton_Click"/>
+                <AppBarButton x:Uid="clearCacheButton" Name="clearCacheButton" Click="ClearCacheButton_Click"/>
                 <AppBarButton x:Uid="settingsButton" Name="settingsButton" Click="SettingsButton_Click"/>
             </CommandBar.SecondaryCommands>
         </CommandBar>
