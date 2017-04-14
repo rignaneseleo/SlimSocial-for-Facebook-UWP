@@ -156,6 +156,9 @@
   <data name="exitTitleDialog" xml:space="preserve">
     <value>Precaución!</value>
   </data>
+  <data name="fullScreen.Header" xml:space="preserve">
+    <value>Modo de pantalla completa</value>
+  </data>
   <data name="hideAdsAndPeopleYouMayKnow.Header" xml:space="preserve">
     <value>Ocultar post patrocinado</value>
   </data>

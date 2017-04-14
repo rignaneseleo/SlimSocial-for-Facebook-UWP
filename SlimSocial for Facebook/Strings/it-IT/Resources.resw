@@ -156,6 +156,9 @@
   <data name="exitTitleDialog" xml:space="preserve">
     <value>Attento!</value>
   </data>
+  <data name="fullScreen.Header" xml:space="preserve">
+    <value>Modalità schermo intero</value>
+  </data>
   <data name="hideAdsAndPeopleYouMayKnow.Header" xml:space="preserve">
     <value>Non mostrare post sponsorizzati</value>
   </data>

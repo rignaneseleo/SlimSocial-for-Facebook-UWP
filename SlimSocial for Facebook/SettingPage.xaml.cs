@@ -17,7 +17,7 @@ namespace SlimSocial_for_Facebook
         {
             InitializeComponent();
             LoadSavedValue();
-            
+
             PackageVersion number = Package.Current.Id.Version; // Get app version
             version.Text += string.Format(" {0}.{1}.{2}\r\n", number.Major, number.Minor, number.Build);
             creatorName.Text = "Pharetra\r\n";
@@ -35,6 +35,8 @@ namespace SlimSocial_for_Facebook
 
         private void LoadSavedValue()
         {
+            if (localSettings.Values.ContainsKey("fullScreen"))
+                fullScreen.IsOn = (bool)localSettings.Values["fullScreen"];
             if (localSettings.Values.ContainsKey("blockTopBar"))
                 blockTopBar.IsOn = (bool)localSettings.Values["blockTopBar"];
             if (localSettings.Values.ContainsKey("showRecentNews"))
@@ -78,7 +80,7 @@ namespace SlimSocial_for_Facebook
 
         private async void DonatesButton_Click(object sender, RoutedEventArgs e)
         {
-            string donates = "https://www.PayPal.me/Branchesi";
+            string donates = "https://www.paypal.com/cgi-bin/webscr?cmd=_s-xclick&hosted_button_id=BS9BABTJFPD8L";
             var uri = new Uri(donates);
             await Windows.System.Launcher.LaunchUriAsync(uri);
         }

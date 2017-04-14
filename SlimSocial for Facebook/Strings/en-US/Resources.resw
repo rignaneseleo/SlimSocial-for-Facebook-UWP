@@ -156,6 +156,9 @@
   <data name="exitTitleDialog" xml:space="preserve">
     <value>Attention!</value>
   </data>
+  <data name="fullScreen.Header" xml:space="preserve">
+    <value>Full screen mode</value>
+  </data>
   <data name="hideAdsAndPeopleYouMayKnow.Header" xml:space="preserve">
     <value>Hide sponsored post</value>
   </data>
@@ -173,9 +176,6 @@
   </data>
   <data name="nameApp.Text" xml:space="preserve">
     <value>SlimSocial for Facebook</value>
-  </data>
-  <data name="nameLogoCreator.Text" xml:space="preserve">
-    <value>Pharetra</value>
   </data>
   <data name="noConnection" xml:space="preserve">
     <value>Oops, there is a connection problem. Check if you have activated the WiFi or data network and try again.</value>

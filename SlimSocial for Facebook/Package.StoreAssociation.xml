@@ -360,10 +360,9 @@
   <ProductReservedInfo>
     <MainPackageIdentityName>58078MicheleBranchesi.SlimSocialforFacebookbeta</MainPackageIdentityName>
     <ReservedNames>
-      <ReservedName>SlimSocial for Facebook (beta)</ReservedName>
       <ReservedName>SlimSocial for Facebook</ReservedName>
     </ReservedNames>
   </ProductReservedInfo>
   <AccountPackageIdentityNames />
-  <PackageInfoList LandingUrl="https://dev.windows.com/dashboard/Application?appId=9NBLGGH4VMR8" />
+  <PackageInfoList LandingUrl="https://developer.microsoft.com/dashboard/Application?appId=9NBLGGH4VMR8" />
 </StoreAssociation>
